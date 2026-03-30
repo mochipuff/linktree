@@ -1,0 +1,39 @@
+body {
+  transition: background 0.2s ease;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.group:hover .group-hover\:translate-y-1 {
+  transform: translateY(-0.25rem);
+}
+
+#invalidParamAlert {
+  backdrop-filter: blur(4px);
+}
+
+.alert-banner {
+  background: rgba(254, 202, 202, 0.95);
+  border-left: 4px solid #ef4444;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #991b1b;
+}
+
+.alert-banner i {
+  font-size: 1.1rem;
+}
+
+code {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 0.8em;
+}
